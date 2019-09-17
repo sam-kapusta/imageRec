@@ -9,10 +9,50 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1rzFtlDBNfWdxxRMGzuBBEjLMZ88Cuoqq'
 export_file_name = 'export.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['5_o_Clock_Shadow',
+ 'Arched_Eyebrows',
+ 'Attractive',
+ 'Bags_Under_Eyes',
+ 'Bald',
+ 'Bangs',
+ 'Big_Lips',
+ 'Big_Nose',
+ 'Black_Hair',
+ 'Blond_Hair',
+ 'Blurry',
+ 'Brown_Hair',
+ 'Bushy_Eyebrows',
+ 'Chubby',
+ 'Double_Chin',
+ 'Eyeglasses',
+ 'Goatee',
+ 'Gray_Hair',
+ 'Heavy_Makeup',
+ 'High_Cheekbones',
+ 'Male',
+ 'Mouth_Slightly_Open',
+ 'Mustache',
+ 'Narrow_Eyes',
+ 'No_Beard',
+ 'Oval_Face',
+ 'Pale_Skin',
+ 'Pointy_Nose',
+ 'Receding_Hairline',
+ 'Rosy_Cheeks',
+ 'Sideburns',
+ 'Smiling',
+ 'Straight_Hair',
+ 'Wavy_Hair',
+ 'Wearing_Earrings',
+ 'Wearing_Hat',
+ 'Wearing_Lipstick',
+ 'Wearing_Necklace',
+ 'Wearing_Necktie',
+ 'Young']
+
 path = Path(__file__).parent
 
 app = Starlette()

@@ -1,5 +1,7 @@
 # Facial Feature Recognition App on Render
 
+Written by: Samuel Kapusta
+
 Multi-label classification deep learning techniques adapted from fast.ai
 
 Model deployment provided by render

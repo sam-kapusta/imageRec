@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1rzFtlDBNfWdxxRMGzuBBEjLMZ88Cuoqq'
+export_file_url = 'https://drive.google.com/uc?export=download&id=11kizQq1xZA1OsPvGWOKHAL-pg_ZED_rt'
 export_file_name = 'export.pkl'
 
 classes = ['5_o_Clock_Shadow',

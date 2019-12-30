@@ -1,4 +1,4 @@
-# Facial Feature Recognition App on Render
+# Deep Learning Vision Model - Facial Feature Recognition Web App 
 
 Written by: Samuel Kapusta
 
